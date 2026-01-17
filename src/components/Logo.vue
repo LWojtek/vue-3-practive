@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center gap-2">
+  <a href="#" class="flex items-center gap-2">
     <div
       class="flex items-center justify-center bg-pumpkin-500 p-2.5 rounded-lg"
     >
@@ -23,5 +23,5 @@
     </div>
 
     <span class="font-bold text-xl">Brewly</span>
-  </div>
+  </a>
 </template>

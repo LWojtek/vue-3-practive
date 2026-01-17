@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --color-pumpkin-50: #fff7ed;
   --color-pumpkin-100: #ffedd5;

@@ -3,31 +3,35 @@
     <ul class="flex items-stretch gap-4 h-full">
       <li class="flex items-stretch">
         <a
-          href="/"
+          href="#menu"
           class="text-gray-500 flex items-center hover:text-black transition border-b-2 border-transparent hover:border-amber-500"
-          >Menu</a
         >
+          Menu
+        </a>
       </li>
       <li class="flex items-stretch">
         <a
           href="/"
           class="text-gray-500 flex items-center hover:text-black transition border-b-2 border-transparent hover:border-amber-500"
-          >Locations</a
         >
+          Locations
+        </a>
       </li>
       <li class="flex items-stretch">
         <a
           href="/"
           class="text-gray-500 flex items-center hover:text-black transition border-b-2 border-transparent hover:border-amber-500"
-          >About</a
         >
+          About
+        </a>
       </li>
       <li class="flex items-stretch">
         <a
           href="/"
           class="text-gray-500 flex items-center hover:text-black transition border-b-2 border-transparent hover:border-amber-500"
-          >Contact</a
         >
+          Contact
+        </a>
       </li>
     </ul>
   </nav>
