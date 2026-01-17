@@ -18,14 +18,37 @@
       class="max-w-7xl text-center px-2 sm:px-4 lg:px-6 mx-auto flex items-center"
     >
       <div class="flex flex-col items-center gap-12">
-        <div>Artisan Coffer</div>
+        <Badge label="Artisan Coffee Since 2018" class="bg-gray-200">
+          <template #icon
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="size-4"
+            >
+              <path d="M10 2v2" />
+              <path d="M14 2v2" />
+              <path
+                d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"
+              />
+              <path d="M6 2v2" />
+            </svg>
+          </template>
+        </Badge>
+
         <h1 class="text-7xl font-bold max-w-[13ch]">
           Where Every Cup Tells a <span class="text-pumpkin-500">Story</span>
         </h1>
+
         <p class="text-xl text-gray-500 max-w-[45ch]">
           Handcrafted specialty coffee, freshly baked goods, and a warm
           atmosphere to fuel your day.
         </p>
+
         <div class="flex items-center gap-4">
           <Button size="lg" label="View Our Menu" show-icon />
           <Button size="lg" variant="3" label="Find a Location" />
@@ -36,4 +59,5 @@
 </template>
 <script setup>
 import Button from "./Button.vue";
+import Badge from "./Badge.vue";
 </script>
