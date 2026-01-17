@@ -4,7 +4,7 @@
   >
     <!-- BG -->
     <div
-      class="pointer-events-none absolute inset-0 bg-gradient-to-br from-pumpkin-500/10 via-background to-blue-500/5"
+      class="pointer-events-none absolute inset-0 bg-linear-to-br from-pumpkin-500/10 via-background to-blue-500/5"
     />
     <div
       class="pointer-events-none absolute top-20 right-20 w-72 h-72 bg-pumpkin-500/10 rounded-full blur-3xl"
@@ -17,10 +17,11 @@
     <div
       class="max-w-7xl text-center px-2 sm:px-4 lg:px-6 mx-auto flex items-center"
     >
-      <div class="flex flex-col items-center gap-12">
+      <div class="flex flex-col items-center gap-8">
         <Badge label="Artisan Coffee Since 2018" class="bg-gray-200">
-          <template #icon
-            ><svg
+          <!-- Slot o nazwie icon-->
+          <template #icon>
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="none"
