@@ -13,3 +13,16 @@
   --color-pumpkin-900: #7c2d12;
   --color-pumpkin-950: #431407;
 }
+
+:root {
+  --header-height: 4rem;
+}
+@media screen and (max-width: 768px) {
+  :root {
+    --header-height: 3rem;
+  }
+}
+
+.header-h {
+  height: var(--header-height);
+}
