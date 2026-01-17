@@ -3,7 +3,7 @@
     class="flex flex-col items-start gap-2 p-4.5 rounded-lg transition shadow-lg hover:shadow-sm bg-white border border-gray-200"
   >
     <div
-      class="flex items-center justify-center p-2 rounded-lg bg-pumpkin-100/50"
+      class="flex items-center justify-center p-3 rounded-lg bg-pumpkin-100/50"
     >
       <!-- Dynamicznie przekazany component ikony-->
       <component :is="icon" class="size-8 text-pumpkin-500" />
