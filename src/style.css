@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pumpkin-50: #fff7ed;
+  --color-pumpkin-100: #ffedd5;
+  --color-pumpkin-200: #fed7aa;
+  --color-pumpkin-300: #fdbb74;
+  --color-pumpkin-400: #fb933c;
+  --color-pumpkin-500: #f97416;
+  --color-pumpkin-600: #ea590c;
+  --color-pumpkin-700: #c2420c;
+  --color-pumpkin-800: #9a3512;
+  --color-pumpkin-900: #7c2d12;
+  --color-pumpkin-950: #431407;
+}
