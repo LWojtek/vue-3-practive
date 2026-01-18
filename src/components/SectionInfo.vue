@@ -6,7 +6,7 @@
       <div class="flex flex-col items-center gap-8 flex-grow">
         <Badge label="Why Choose Us" class="bg-blue-400 text-white" />
         <h2 class="text-5xl font-bold">More Than Just Coffee</h2>
-        <p class="text-lg">
+        <p class="text-gray-500 text-lg">
           We create experiences, not just beverages. Here's what makes us
           special.
         </p>
