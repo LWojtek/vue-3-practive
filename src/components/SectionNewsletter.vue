@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-pumpkin-200/25 py-24">
+  <section class="bg-pumpkin-100/30 py-24">
     <div class="max-w-7xl mx-auto px-2 flex justify-center">
       <div
         class="flex flex-col items-center bg-white shadow-xl rounded-lg p-12 gap-6 w-full md:w-2/3 lg:w-1/2"

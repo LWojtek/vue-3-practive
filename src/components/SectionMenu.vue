@@ -1,5 +1,5 @@
 <template>
-  <section id="menu" class="py-24 bg-orange-50/25">
+  <section id="menu" class="py-24 bg-gray-100/30">
     <div
       class="max-w-7xl text-center px-2 sm:px-4 lg:px-6 mx-auto flex justify-center items-center"
     >
